@@ -26,3 +26,15 @@ the content from working area.
 
 9. git commit -m "message of commit" -> used to pass the message without opening the
 editor in terminal.
+
+10.git remote :-> list down all the remote connection;
+11. git remote add origin link_of_remote :-
+it here origin is name of remote connection. through this we add a new link to the remote repository
+and give a name of it.
+12. git remote rm <name of remote> :-
+helps to delete a remote connection.
+13. git remote rename <old_name> <new_name> :-
+renames the remote connection.
+
+imp Note:
+the name of remote connection is always used to establish the communication b/w the repositorys.
