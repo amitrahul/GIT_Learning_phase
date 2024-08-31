@@ -1,0 +1,9 @@
+user.name=Rahul Raj
+user.email=raj.rahul686@gmail.com
+
+git init -> created a .git folder, and gives power to managed by GIT.
+
+there are three stage area of files in git.
+1. working area
+2. staging area
+3. repository area
