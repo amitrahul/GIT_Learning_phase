@@ -5,9 +5,9 @@ git init -> created a .git folder, and gives power to managed by GIT.
 
 there are three stage area of files in git.
 
-1. working area
-2. staging area
-3. repository area
+1. working area : in this area new file or modified files are there.
+2. staging area : In this area GIT knows what cjanges will be done b/w the latest version and last version.
+3. repository area : git already managed the file and knows the version history.
 
 different git commands are there :
 1.git add filename
