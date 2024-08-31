@@ -15,4 +15,5 @@ different git commands are there :
 4.git log
 5.git rm --cached filename
 6.git restore file.
-7.git restore --staged filename.
+7.git restore --staged filename :- bring the file from staging area to working area.
+This only works if changes done in staging area.
