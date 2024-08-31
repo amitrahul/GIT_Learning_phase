@@ -23,3 +23,6 @@ This only works if changes done in staging area.
 rm bring the files in untarck area. 
 restore bring the file in working area from staged area or remove 
 the content from working area.
+
+9. git commit -m "message of commit" -> used to pass the message without opening the
+editor in terminal.
