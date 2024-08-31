@@ -44,3 +44,16 @@ the name of remote connection is always used to establish the communication b/w 
 15. `git add .`:- add all file in staged area from working area.
 
 16. git pull <remote_name> <branch_name> : download the latest changes from the branch of mentioned remote in your local repo.
+
+### genral practice
+
+1. git add
+2. git commit
+3. git pull
+4. git push
+
+main---> dev
+-------> stage
+------------> feature->> git pull orign dev
+if feature branch to be merge to dev -> git pull orign dev --rebase
+if feature branch to be merge to main but need changes of dev -> git pull origin dev --no-rebase
