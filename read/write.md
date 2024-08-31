@@ -55,5 +55,8 @@ the name of remote connection is always used to establish the communication b/w 
 main---> dev
 -------> stage
 ------------> feature->> git pull orign dev
+
+protected branch-> can't commit directly, only pull request can be merged.
+
 if feature branch to be merge to dev -> git pull orign dev --rebase
 if feature branch to be merge to main but need changes of dev -> git pull origin dev --no-rebase
